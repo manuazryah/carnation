@@ -1,0 +1,81 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Aug 22, 2016, 4:55:21 PM
+    Author     : user
+*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700");
+body,p,tr,td,table,div,span{
+    font-family: 'Roboto', sans-serif;
+}
+body h6,h1,h2,h3,h4,h5,p,b,tr,td,span,th,div{
+    color:#525252 !important;
+}
+@page {
+    size: A4;
+    /*         margin: 40px;
+             margin-top: 100px;*/
+}
+@media print{
+
+    /*        // size: A4;
+            //margin: 30px;
+            //margin: 20mm;*/
+
+
+
+
+}
+.main-tabl{
+    margin: auto;
+}
+tfoot{display: table-footer-group;}
+table { page-break-inside:auto;}
+tr{ page-break-inside:avoid; page-break-after:auto; }
+
+/*//h6 {page-break-before: always}*/
+/*//table {page-break-after: always}*/
+table.table{
+    border: .1px solid #969696;
+    border-collapse: collapse;
+    width:100%;
+}
+.table th {
+    border: .1px solid #969696;
+    color: #525252;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: left;
+}
+.table td {
+    border: .1px solid #969696;
+    font-size: 8px;
+    text-align: left;
+    padding: 3px;
+}
+.tbl{
+    border: 1px solid #525252 ! important;
+}
+.tb2 td {
+    font-size: 9px;
+}
+
+.main-left{
+    float: left;
+}
+.main-right{
+    float: right;
+}
+.header{
+    font-size: 12.5px;
+    display: inline-block;
+    width: 100%;
+}
+.footer{
+    font-size: 12.5px;
+    display: inline-block;
+    width: 100%;
+}

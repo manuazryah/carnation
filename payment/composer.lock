@@ -1,0 +1,60 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "515a0ee8743092db0178b9ab5617fe67",
+    "content-hash": "7b69e4b7ead21f47d77540a24783f31e",
+    "packages": [
+        {
+            "name": "payfort/start",
+            "version": "0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/payfort/start-php.git",
+                "reference": "b3337d6fa5da27ee456f89d8146f82e039edeab6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/payfort/start-php/zipball/b3337d6fa5da27ee456f89d8146f82e039edeab6",
+                "reference": "b3337d6fa5da27ee456f89d8146f82e039edeab6",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.2.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Start": "src/",
+                    "Start\\Test": "tests/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Yazin",
+                    "email": "yazin@payfort.com",
+                    "homepage": "https://start.payfort.com/"
+                }
+            ],
+            "description": "Payfort Start makes accepting online payments in the Middle East a piece of cake",
+            "keywords": [
+                "middle east",
+                "online payments",
+                "payfort",
+                "payments"
+            ],
+            "time": "2016-02-03 11:03:57"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
